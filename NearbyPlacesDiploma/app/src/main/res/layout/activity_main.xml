@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:id="@+id/cultureTextView"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:onClick="onClick"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Culture" />
+
+    <TextView
+        android:id="@+id/foodTextView"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cultureTextView"
+        android:onClick="onClick"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Food" />
+
+    <TextView
+        android:id="@+id/entertainmentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/foodTextView"
+        android:onClick="onClick"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Entertainment" />
+
+    <TextView
+        android:id="@+id/aboutTextView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/entertainmentTextView"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="About city"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/entertainmentTextView"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/foodTextView"
+        android:src="@android:drawable/star_big_on" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/if_culture_512pxgrey_339919" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cultureTextView"
+        android:src="@mipmap/if_97_171456" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/entertainmentTextView"
+        android:src="@mipmap/if_about_2639759" />
+</RelativeLayout>

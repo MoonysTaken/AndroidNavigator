@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Rostov-on-Don (Russian: Росто́в-на-Дону́, tr. Rostov-na-Donu, IPA: [rɐˈstof nə dɐˈnu]) is a port city and the administrative center of Rostov Oblast and the Southern Federal District of Russia. It lies in the southeastern part of the East European Plain on the Don River, 32 kilometers (20 mi) from the Sea of Azov. The southwestern suburbs of the city abut the Don River delta. The population is just over one million people with recent figures recorded as: 1,089,261 (2010 Census); 1,068,267 (2002 Census);[15] 1,019,305 (1989 Census). Rostov's favorable geographical position at trading crossroads promotes economic development. The Don River is a major shipping lane connecting southwestern Russia with the north. Rostov-on-Don is a trading port for Russian, Italian, Greek and Turkish merchants selling, for example, wool, wheat and oil. It is also an important river port for passengers. The Rostov-on-Don agricultural region produces one-third of Russia's vegetable oil from sunflowers."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="105dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@mipmap/rostov" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="180dp"
+        android:layout_height="105dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@mipmap/rostov2" />
+
+
+</RelativeLayout>
